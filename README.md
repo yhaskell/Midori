@@ -1,4 +1,4 @@
 Midori
 ======
 
-Midori project Da language compiler
+Midori project (Da language compiler)

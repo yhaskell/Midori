@@ -1,11 +1,12 @@
 ﻿Lexer
-=====
+
 
 
 IToken - parent interface
 
 
 Types of tokens:
+================
 	
 -	Constant
 ├		Character					'c'
@@ -21,3 +22,9 @@ Types of tokens:
 ├		Start
 └		End
 
+Parsing process:
+================
+
+1) parse to constants, identifiers, operators and blocks
+2) when generating, try to generate keywords from identifiers
+3) don't forget generating block tokens when needed
